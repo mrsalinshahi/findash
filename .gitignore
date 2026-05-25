@@ -1,0 +1,50 @@
+# dependencies
+node_modules/
+.pnpm/
+
+# production
+/dist/
+build/
+
+# local env files
+.env
+.env.*
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS
+.DS_Store
+
+# test coverage
+coverage/
+
+# build outputs
+*.tsbuildinfo
+
+# temporary files
+*.tmp
+*.temp
+
+# IDE/project files
+.idea/
+*.iml
+
+# OS generated files
+Thumbs.db
+
+# Vite cache
+.vite/
+
+# storybook
+out/
